@@ -1,4 +1,4 @@
-# BWA Nomads
+# BWA Nomads Backend
 
 [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://github.com/handokoadjipangestu/project-learn-bwa-laravel-nomads)
 [![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/handokoadjipangestu/project-learn-bwa-laravel-nomads)
