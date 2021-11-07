@@ -1,0 +1,563 @@
+body {
+    background-color: #fff;
+    color: #071c4d;
+    font-family: 'Assistant', sans-serif;
+}
+
+nav {
+    position: relative;
+    z-index: 999;
+}
+
+.navbar-brand{
+    img{
+        max-height: 40px;
+    }
+}
+
+.navbar-nav{
+    .nav-link{
+        color: #071c4d !important;
+        
+        &:hover{
+            color: #2f51a0 !important;
+        }
+
+        &.active{
+            font-weight: 600;
+        }
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-right: -18px !important;
+    margin-bottom: -8px !important;
+
+    padding-right: 38px;
+    padding-left: 38px;
+    height: 70px;
+    border-radius: 0;
+}
+
+header {
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url('../images/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 51px;
+        font-weight: bold;
+        position: relative;
+        z-index: 999;
+    }
+
+    p {
+        font-size: 22px;
+        position: relative;
+        z-index: 999;
+    }
+
+    .get-started-size {
+        font-size: 20px;
+        font-weight: 600;
+        position: relative;
+        z-index: 999;
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.4);
+    }
+}
+
+.stats{
+    margin-top: -50px;
+    .stats-bar {
+        .stats-detail {
+            padding-top: 15px;
+            padding-left: 60px;
+            background-color: #fff;
+        }
+
+        h2 {
+            font-weight: 600;
+            font-size: 30px;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 20px;
+        }
+    }
+}
+
+.popular-heading {
+    min-height: 540px;
+    background-color: #051334;
+    margin-top: -50px;
+    margin-bottom: -216px;
+
+    .popular-title {
+        margin-top: 138px;
+        color: #fff;
+    }
+}
+
+.popular-content {
+    .popular-travel {
+        .card-travel {
+            min-height: 380px;
+            background-size: cover;
+            color: #fff;
+            padding: 30px;
+            margin-bottom: 20px;
+            position: relative;
+        
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                background-image: linear-gradient(rgba(0,0,0,.6) 0%, rgba(0,0,0,0) 60%);
+            }
+        }
+
+        .travel-country {
+            font-size: 18px;
+            position: relative;
+            z-index: 999;
+        }
+
+        .travel-location {
+            font-weight: 600;
+            font-size: 26px;
+            position: relative;
+            z-index: 999;
+        }
+
+        .travel-button {
+            position: relative;
+            z-index: 999;
+            
+            .travel-size {
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.networks {
+    padding-top: 67px;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.testimonial-heading {
+    background-image: linear-gradient(#fff 0%, #f7f9ff 100%);
+    padding-top: 67px;
+    min-height: 500px;
+}
+
+.testimonial-content {
+    margin-top: -261px;
+    padding-bottom: 51px;
+
+    .card-testimonial {
+        padding: 40px 20px 10px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+
+        .travel-content {
+            min-height: 400px;
+        }
+    
+        h3 {
+            font-weight: 600;
+            font-size: 22px;
+        }
+    
+        .testimonial {
+            font-size: 26px;
+            font-weight: 300;
+            color: #6e6e6e;
+        }
+    
+        .trip-to {
+            font-size: 22px;
+            color: #6e6e6e;
+        }
+
+        hr {
+            margin: 0 -20px;
+        }
+    }
+
+    .btn-help {
+        background-color: #f2f2f2;
+        font-weight: 300;
+        font-size: 20px;
+        color: #c3c3c3;
+
+        &:hover {
+            background-color: #f8f6f6;
+            color: #c3c3c3;
+        }
+    }
+
+    .started-size {
+        font-weight: 600;
+        font-size: 20px;
+    }
+}
+
+.custom-heading {
+    min-height:310px;
+    background-color: #e4e6eb;
+    margin-top: -68px;
+}
+
+.custom-content {
+    margin-top: -210px;
+    min-height: 100vh;
+
+    h1 {
+        font-weight: 600;
+        font-size: 26px;
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 300;
+        color: #b1b1b1;
+    }
+
+    .breadcrumb {
+        background-color: transparent;
+        margin-bottom: 30px;
+    }
+
+    .breadcrumb-item{
+        a {
+            font-weight: 300;
+            color: #071c4d;
+        }
+
+        &.active {
+            font-weight: 600;
+            color: #071c4d;
+        }
+    }
+
+    .card-custom {
+        padding: 30px;
+        border-radius: 11px;
+    }
+
+    .features {
+        margin-top: 20px;
+    
+        h3 {
+            font-size: 18px;
+            color: #071c4d;
+            margin-bottom: 0;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+
+        .description-container {
+            border-left: 1px solid #E3E3E3;
+
+            .description {
+                margin-left: 10px;
+            }
+            
+            &:first-child {
+                border-left: none;
+            }
+        }
+
+        .featured-image{
+            width: 45px;
+            height: 45px;
+        }
+    }
+
+    .gallery {
+        .xzoom-container {
+            display: block;
+        }
+
+        .xzoom {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            box-shadow: none;
+            margin-bottom: 10px;
+        }
+
+        .xzoom-thumbs{
+            justify-content: center;
+            
+            a{
+                width: 20%;
+                margin-right: 10px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+
+            .xzoom-gallery {
+                width: 100%;
+                height: 80px;
+                object-fit: cover;
+                margin: 0;
+            }   
+        }
+
+        .xactive {
+            border: 4px solid #1abc9c;
+            box-shadow: none;
+        }
+    }
+
+    .attendee-member {
+        .delete-attendee {
+            width: 18px;
+            color: #071c4d !important;
+            
+            &:hover {
+                color: #af1212 !important;
+            }
+        }
+    }
+
+    .attendee-form {
+        h3 {
+            font-weight: 600;
+            font-size: 14px;
+            color: #071c4d;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 14px;
+            color: #b1b1b1;
+        }
+
+        .gj-datepicker {
+            .datepicker {
+                border-right: 0;
+            }
+        }
+
+        .input-group-append {
+            .btn {
+                padding-right: 30px;
+            }
+        }
+    }
+
+    .card-right {
+        h2 {
+            font-weight: 600;
+        }
+
+        .trip-informations {
+            th {
+                padding-top: 7px;
+                font-weight: 300;
+            }
+
+            td {
+                padding-top: 7px;
+                font-weight: 300;
+                color: #b1b1b1;
+            }
+
+            .text-blue {
+                font-weight: 600;
+                color: #071c4d;
+            }
+            
+            .text-orange {
+                font-weight: 600;
+                color: #ff9e53;
+            }
+        }
+
+        .payment-instructions {
+            font-weight: 300;
+            font-size: 14px;
+            color: #b1b1b1;
+        }
+
+        .bank {
+            .bank-item {
+                .description {
+                    margin-left: 12px;
+                    
+                    h3 {
+                        font-size: 16px;
+                        color: #071c4d;
+                        margin-bottom: 0;
+                    }
+    
+                    p {
+                        font-weight: normal;
+                        font-size: 16px;
+                        color: #071c4d;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .members {
+        .member-image{
+            width: 45px;
+            height: 45px;
+            background-size: cover;
+        }
+
+        .member-count {
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            font-size: 20px;
+            text-align: center;
+            color: #5772b2;
+            background-color:#edf2ff;
+        }
+    }
+
+    .right-btn-container {
+        margin-top: -16px;
+
+        .right-size {
+            font-weight: 600;
+            font-size: 20px;
+            border-radius: 0;
+            position: relative;
+        }
+    }
+}
+
+.success {
+    height: 85vh;
+
+    h1 {
+        font-weight: 600;
+        font-size: 26px;
+        color: #071c4d;
+
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+    }
+}
+
+.footer {
+    h5 {
+        font-weight: 600;
+    }
+
+    a {
+        color: #071c4d;
+    }
+}
+
+// Utility
+.btn-blue {
+    background-color: #071c4d;
+    color: #fff;
+
+    &:hover {
+        background-color:#112c69;
+        color: #fff;
+    }
+}
+
+.btn-orange {
+    background-color: #ff9e53;
+    color: #fff;
+
+    &:hover {
+        background-color: #faa767;
+        color: #fff;
+    }
+}
+
+.title-heading {
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) { 
+    header {
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 34px;
+            font-weight: bold;
+            position: relative;
+            z-index: 999;
+        }
+    
+        p {
+            font-size: 16px;
+            position: relative;
+            z-index: 999;
+        }
+    }
+
+    .stats{
+        .stats-bar{
+            .stats-detail {
+                padding-left: 0;
+            }
+        }
+    }
+
+    .custom-content {
+        .features{
+            .description-container {
+                border-left: none;
+            }
+        }
+    }
+}
